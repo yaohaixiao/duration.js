@@ -1,11 +1,11 @@
 # duration.js
-获取两个时间点的时间见差，包含秒、分钟、小时、天数、星期、月份、年
+duration.js 是一个简单易用的功能函数，用于获取两个时间点的时间见差（包含秒、分钟、小时、天数、星期、月份、年）。
 
 ## 语法
 
-···js
+```js
 duration = (start[, end])
-···
+```
 
 - start - 起始时间
 - end - （可选），结束时间
@@ -66,3 +66,7 @@ diff.ago('seconds') // => '172800000000 seconds ago'
 let diff = duration('2021-09-11')
 diff.ago() // => '3 months, 14 weeks, 100 days, 2 hours, 31 minutes, 20 seconds, 326 milliseconds ago'
 ```
+
+## License
+
+Licensed under MIT License.
