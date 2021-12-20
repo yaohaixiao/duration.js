@@ -27,10 +27,10 @@ const duration = (start, end = new Date()) => {
       'millisecond': milliseconds
     }
     const all = {
-      year: years,
-      month: months,
-      week: weeks,
-      day: days,
+      year: years % 365,
+      month: months % 30,
+      week: weeks % 7,
+      day: days % 1,
       hour: hours % 24,
       minute: minutes % 60,
       second: seconds % 60,
