@@ -64,7 +64,7 @@ diff.ago('seconds') // => '172800000000 seconds ago'
 
 // 显示完整的时间
 let diff = duration('2021-09-11')
-diff.ago() // => '3 months, 14 weeks, 100 days, 2 hours, 31 minutes, 20 seconds, 326 milliseconds ago'
+diff.ago() // => '3 months, 2 hours, 44 minutes, 274 milliseconds ago'
 ```
 
 ## License
